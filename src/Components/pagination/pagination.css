@@ -1,0 +1,22 @@
+.paginado{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    list-style:none;
+    cursor: pointer;
+    max-width: 99.05%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 3%;
+
+}
+.lista__paginada{
+    border-style: outset;
+    color: #fffefe;
+    width: 40px;
+    background-color: #9b8b8b;
+}
+.lista__paginada:hover{
+    background-color: rgb(92, 131, 91);
+    color: black;
+}

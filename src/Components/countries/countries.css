@@ -1,0 +1,10 @@
+.container__countries{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 30px ;
+    padding: 40px 0 3% 0;
+    backdrop-filter: blur(10px) saturate(100%) contrast(45%) brightness(130%);
+    
+}

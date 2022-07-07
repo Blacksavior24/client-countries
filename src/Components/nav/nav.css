@@ -1,0 +1,50 @@
+.nav{
+    background-color:#9b8b8b;
+    display: flex;
+    padding: 6px;
+    justify-content: space-between;
+    background-position: center center;
+    background-size:cover;
+    background-attachment: fixed;
+    width: 99.05%;
+    height: 50px;
+}
+.add{
+    height: 90%;
+    margin-right: 15px;
+    background-color: #ea4335;
+    color: white;
+    border-color: transparent;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 150px;
+}
+.add:hover{
+    background-color: #202124;
+    color: white;
+}
+.button{
+    height: 90%;
+    margin-right: 15px;
+    background-color: green;
+    color: white;
+    border-color: transparent;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 150px;
+}
+.button:hover{
+    background-color: green;
+    color: black;
+}
+.pruebas{
+    background-image: url(https://dbdzm869oupei.cloudfront.net/img/quadres/preview/40450.png);
+    background-position: center center;
+    background-size:cover;
+    background-attachment: fixed;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}

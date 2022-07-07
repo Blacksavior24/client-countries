@@ -1,0 +1,116 @@
+.post{
+    border-radius:15px ;
+    height:500px;
+    width:50%;
+    margin: 15px auto;
+    margin-top: 10%;
+    background-color: #706565;
+    box-shadow: 0 6rem 6rem 0 rgba(84, 65, 65, 0.5);
+    background-position: center center;
+    background-size:cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(10px) saturate(100%) contrast(45%) brightness(130%);
+    text-align: center;
+    }
+h2{
+    padding-top: 4%;
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: 900;
+}
+.container-post{
+    margin-top:20px;
+        width:100%;
+        margin:auto;
+        display:flex;
+        flex-direction:column;
+        color: white;
+        margin:5px 0 0 0;
+        display:flex;
+        margin-right:30px;
+        list-style:none;
+        font-weight:bold;
+          
+        }
+        label{
+          margin-bottom:4px;
+          font-weight:bold;
+          margin-top:12px;
+        }
+
+        .btn-submit{
+          width:25%;
+          margin:auto;
+          margin-top:10px;
+          margin-right: 35px;
+          padding:10px;
+          border: 1px transparent;
+          border-radius: 75px;
+          outline:none;
+          background-color:green;
+          color:white;
+          font-weight:bold;
+          font-size: 16px;
+          cursor: pointer;
+          
+        }
+        
+        .btn-atras{
+          width:25%;
+          font-weight:bold;
+          margin:auto;
+          font-size: 16px;
+          margin-top:10px;
+          margin-left: 35px;
+          padding:10px;
+          border: 1px transparent;
+          border-radius: 50px;  
+          outline:none;
+          background-color: #ea4335;
+          color:white;
+          cursor: pointer;
+          }
+        
+  .pais-seleccionado{
+    color: aliceblue;
+    list-style:none;
+  }
+  .X{
+    cursor: pointer;
+    border-radius: 25px;
+    border-style: outset;
+  }
+  .btn-atras:hover{
+    background-color: #202124;
+    color: white;
+  }
+  .btn-submit:hover{
+    color: black;
+  }
+  .label__container{
+    padding: 10px;
+    border-radius: 25px;
+  }
+  .cuadros{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+.select--boton{
+    border-radius: 50px;
+    width: 80px;
+    height: 40px;
+    background-color: grey;
+}
+.input--select{
+    border-radius: 35px;
+    width: 35%;
+    outline:none;
+    height:30px;
+}
+.input--selto{
+    border-radius: 35px;
+    width: 20%;
+    outline:none;
+    height:30px;
+}

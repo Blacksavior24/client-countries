@@ -1,0 +1,73 @@
+.detail{
+    width: 60%;
+    color:rgb(0, 0, 255);
+    margin: 2px auto;
+    background-color:rgb(10, 0, 0);
+    box-shadow: 0 6rem 6rem 0 rgba(0, 0, 5, 5);
+    border-radius:50px;
+}
+.card-title {
+    margin-top: 0;
+    text-align:center;
+    font-size: 30px;
+}
+.detail-img{
+    width:100%;
+    text-align:center;      
+}
+.imagen{
+    width: 400px;
+    height: 220px;
+}
+.datos{
+    margin: 50px;
+    width: 18rem;
+    margin-top: 0px;
+    padding-top: 0px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(212, 209, 208);
+    
+}
+.grancontenido{
+    display: flex;
+    justify-content: center;
+}
+.btn-back{
+            display:block;
+            width:100px;
+            margin:auto;
+            margin-bottom:10px;
+            background-color: rgb(255, 225, 0);
+            border-radius: 25%;
+            font-weight:bold;
+            color:black;
+            font-size: 22px;
+            width:100px;
+            padding:2px; 
+            cursor: pointer;
+          }
+          .container{
+                display:flex;
+                margin:auto;
+                font-weight:bold;
+          }
+      .btn-back:hover{
+        background-color: white;
+        color: black;
+      }
+.card-detail{
+    
+        margin: 20px;
+        width: 18rem;
+        margin-top: 0px;
+        padding-top: 0px;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: rgb(212, 209, 208);
+    
+}
+.activity-container{
+    display: flex;
+    justify-content: space-around;
+}
