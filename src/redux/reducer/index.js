@@ -82,7 +82,7 @@ const rootReducer = (state = initialState, {type, payload}) => {
     case 'FILTER_ACTIVITY':
       const activitiesbycountries = state.actividad
       const countriesAll = state.countries
-      console.log("FILTER_ACTIVITY - activitiesbycountries****************: " , activitiesbycountries)
+      console.log("FILTER_ACTIVITY - activitiesbycountries: " , activitiesbycountries)
              
       const filt = payload === 'todos' ? countriesAll : activitiesbycountries.filter(a=> a.name === payload)[0].countries.map(e => e)
       console.log("FILT_____:", filt)
@@ -90,11 +90,6 @@ const rootReducer = (state = initialState, {type, payload}) => {
             ...state,
             countriesApi: filt
     };
-    /*case CREATE_PRODUCT:
-      return{
-        ...state,
-        countries: [...state.countries,action.payload]
-      }*/
     default: 
       return state;
   }

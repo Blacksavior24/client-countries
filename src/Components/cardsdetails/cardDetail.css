@@ -1,9 +1,9 @@
 .detail{
     width: 60%;
-    color:rgb(0, 0, 255);
+    color:rgb(0, 0, 0);
     margin: 2px auto;
-    background-color:rgb(10, 0, 0);
-    box-shadow: 0 6rem 6rem 0 rgba(0, 0, 5, 5);
+    background-color:rgba(10, 0, 0, 0.349);
+    box-shadow: 0 6rem 6rem 0 rgba(78, 78, 87, 0.131);
     border-radius:50px;
 }
 .card-title {
@@ -13,7 +13,8 @@
 }
 .detail-img{
     width:100%;
-    text-align:center;      
+    text-align:center;  
+    margin-bottom: 40px;    
 }
 .imagen{
     width: 400px;
@@ -27,6 +28,7 @@
     border: 1px solid black;
     border-radius: 10px;
     background-color: rgb(212, 209, 208);
+    padding-left: 15px;
     
 }
 .grancontenido{
@@ -34,28 +36,28 @@
     justify-content: center;
 }
 .btn-back{
-            display:block;
-            width:100px;
-            margin:auto;
-            margin-bottom:10px;
-            background-color: rgb(255, 225, 0);
-            border-radius: 25%;
-            font-weight:bold;
-            color:black;
-            font-size: 22px;
-            width:100px;
-            padding:2px; 
-            cursor: pointer;
-          }
-          .container{
-                display:flex;
-                margin:auto;
-                font-weight:bold;
-          }
-      .btn-back:hover{
-        background-color: white;
-        color: black;
-      }
+    display:block;
+    width:100px;
+    margin:auto;
+    margin-bottom:10px;
+    background-color: rgb(255, 225, 0);
+    border-radius: 25%;
+    font-weight:bold;
+    color:black;
+    font-size: 22px;
+    width:100px;
+    padding:2px; 
+    cursor: pointer;
+}
+.container{
+    display:flex;
+    margin:auto;
+    font-weight:bold;
+}
+.btn-back:hover{
+    background-color: white;
+    color: black;
+}
 .card-detail{
     
         margin: 20px;
@@ -70,4 +72,7 @@
 .activity-container{
     display: flex;
     justify-content: space-around;
+}
+.btn{
+    padding-bottom: 20px;
 }

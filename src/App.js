@@ -5,9 +5,11 @@ import Countries from './Components/countries/Countries'
 import CardDetail from './Components/cardsdetails/CardDetail';
 import Nav from './Components/nav/Nav';
 import Addactivity from './Components/addactivity/Addactivity';
+import { Fragment } from 'react';
 
 function App() {
   return (
+    <Fragment>
     <div className="App">
     <Route exact path='/' component={LandingPage} />
     <Route exact path='/countries' component={Nav}/>
@@ -16,6 +18,7 @@ function App() {
     <Route exact path='/countries/:id' component={Nav}/>
     <Route exact path='/countries/:id' component={CardDetail}/>
     </div>
+    </Fragment>
   );
 }
 

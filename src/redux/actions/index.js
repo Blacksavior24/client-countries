@@ -20,6 +20,9 @@ export const getCountryDetail = (id) => {
         type: 'GET_COUNTRY_DETAIL',
         payload: response.data
       })
+      /*
+      
+      */
     }catch(err){
       //console.error("mal id xD"+err);
     }    
@@ -118,6 +121,13 @@ export const poblaMenor = () =>{
   return  function (dispatch){
     dispatch({type:'LOADING', payload: true})
     return dispatch({type: 'MENOR_POBLACION'})
+  }
+};
+
+export const Altpobla = () =>{
+  return  function (dispatch){
+    dispatch({type:'LOADING', payload: true})
+    return dispatch({type: 'ALT_POBLACION'})
   }
 };
 

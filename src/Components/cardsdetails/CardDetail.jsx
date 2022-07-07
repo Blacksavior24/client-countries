@@ -60,8 +60,7 @@ export default function CardDetail (props){
      <Link className="link" to='/countries'>
          <button className='btn-back'>Return</button> 
      </Link>
-     
- </div>
+        </div>
      </div>
          ))}
 
